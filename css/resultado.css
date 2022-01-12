@@ -1,0 +1,53 @@
+
+.clear{
+    clear: both;
+}
+
+.center h1{
+    color: #ae741a;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 50px;
+    line-height: 55px;
+    text-transform: uppercase;
+}
+
+.resultado{
+    margin: 30px auto;
+    width: 700px;
+}
+
+.primeiro, .segundo{
+    margin-top: 10%;
+}
+
+
+.capa{
+    width: 180px;
+    float: left;
+}
+
+.num1{
+    float: left;
+    margin-top: 5%;
+}
+
+.img_1{
+    float: right;
+    margin-top: 5%;
+}
+
+.info, .info2{
+    width: 500px;
+    float: right;
+    color: #f6bf30;
+}
+
+.info2{
+    color: #CCC;
+}
+
+.info p, .info2 p{
+    font-size: 1.3em;
+    padding: 4px 0;
+}

@@ -1,0 +1,214 @@
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body{
+    background: url(../img/vs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.responsiva{
+    width: 100%;
+}
+
+.principal{
+    width: 1400px;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.center{
+    width: 1300px;
+    height: 700px;
+    margin: 10px auto;
+}
+
+.cet-le{
+    width: 30%;
+    float: left;
+    margin-left: -3%;
+}
+
+.painel_ld h1{
+    color: #ae741a;
+    text-align: center;
+    margin-top: 8%;
+    font-size: 50px;
+    line-height: 55px;
+}
+
+.painel_ld h2{
+    color: #ae741a;
+    text-align: center;
+    margin-top: 20%;
+    font-size: 25px;
+}
+
+.painel_ld span{
+    text-transform: uppercase;
+    color: #FF4500;
+}
+
+.painel_ld p{
+    margin-top: 15%;
+    color: #f6bf30;
+    font-size: 18px;
+    text-align: center;
+}
+
+input{
+    height: 40px;
+    width: 80%;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 22%;
+    background-color: #fff;
+    padding-left: 40px;
+    border: none;
+    background-repeat: no-repeat;
+    background-position: 10px;
+    display: inline-block;
+}
+
+input.botao{
+    color: #fff;
+    background-color: #f79300;
+    border: 2px solid #db7d00;
+    padding: 5px 20px;
+    height: 45px;
+    width: 90%;
+    background: linear-gradient(to bottom, #faa600, #f68a00);
+    background: -webkit-linear-gradient(to bottom, #faa600, #f68a00);
+    background: -moz-linear-gradient(to bottom, #faa600, #f68a00);
+    background: -o-linear-gradient(to bottom, #faa600, #f68a00);
+}
+
+.submit a{
+    cursor: pointer;
+}
+
+
+/*Lado Direito*/
+.cet-ld{
+    width: 830px;
+    float: left;
+    margin-left: 5%;
+    padding-left: 1%;
+}
+
+.descricao{
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.descricao h2{
+    color: #FF4500;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.clear{
+    clear: both;
+}
+
+.linha1, .linha2, .linha3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 905;
+}
+
+.titulo p,
+.diretorio p,
+.nota p,
+.ano p{
+    color: white;
+    font-size: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.ano{
+    margin: 2% 0;
+}
+
+.box1 p{
+    font-size: 10px;
+}
+
+.cor{
+    color: white;
+}
+
+.linha1{
+    margin: 2% auto 0 auto;
+}
+
+.linha2{
+    margin: 2% auto 0 auto;
+}
+
+.linha1 .imagem,
+.linha2 .imagem,
+.linha3 .imagem{
+    margin-left: 25%;
+}
+
+img{
+    width: 80px;
+    height: 110px;
+}
+
+.box1{
+    width: 22%;
+}
+
+.box1 input[type=checkbox]{
+    width: 5%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+.box1 input[type=checkbox]{
+    width: 2%;
+    margin-top: 11%;
+}
+
+.box1 .titulo{
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto lambda3</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div class="principal">
+        <div class="center">
+            <div class="cet-le">
+                <div class="painel_ld">
+                    <h1>Bem vindo ao campeonato anual do <span>Lambda3</span></h1>
+                    <h2>Uma competição onde colocará os melhores 
+                        games da atualiadade para participar de um torneio, para consagrar o grande camnpeão!!!</h2>
+                    
+                    <p>Para comerçar, selecione 8 times da tabela ao lado:</p>
+                    <p>Depois clique em "COMEÇAR CAMPEONATO".</p>
+                </div>
+                <div class="submit">
+                    <a href="resultado.html"><input class="botao" type="submit" name="capeonato" value="COMEÇAR CAMPEONATO"></a>
+                </div>
+            </div>
+            <div class="cet-ld">
+                <div class="descricao"><h2>Times de 2021:</h2></div>
+                <div class="linha1">
+                    <div class="box1">
+                        <div class="checkbox">
+                            <input class="check" type="checkbox" id="check" value="">
+                        </div>
+                        <div class="titulo">
+                            <p id="game1">Titulo do Jogo</p>   
+                        </div>
+                        <div id="diretorio" class="diretorio">
+                           
+                        </div>
+                        <div id="ano1" class="ano">
+                          
+                        </div>
+                        <div id="nota1" class="nota">
+                           
+                        </div>
+                        <div id="img_game1" class="imagem">
+                            
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <div class="checkbox">
+                            <input class="check" type="checkbox">
+                        </div>
+                        <div class="titulo">
+                            <p id="game2">Titulo do Jogo</p>   
+                        </div>
+                        <div id="diretorio2" class="diretorio">
+                               
+                        </div>
+                        <div id="ano2" class="ano">
+                               
+                        </div>
+                        <div id="nota2" class="nota">
+                           
+                        </div>
+                        <div id="img_game2" class="imagem">
+                            
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <div class="checkbox">
+                            <input class="check" type="checkbox" id="check" value="">
+                        </div>
+                        <div class="titulo">
+                            <p id="game3">Titulo do Jogo</p>   
+                        </div>
+                        <div id="diretorio3" class="diretorio">
+                               
+                        </div>
+                        <div id="ano3" class="ano">
+                               
+                        </div>
+                        <div id="nota3" class="nota">
+                           
+                        </div>
+                        <div id="img_game3" class="imagem">
+                            
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <div class="checkbox">
+                            <input class="check" type="checkbox" id="check" value="">
+                        </div>
+                        <div class="titulo">
+                            <p id="game4">Titulo do Jogo</p>   
+                        </div>
+                        <div id="diretorio4" class="diretorio">
+                               
+                        </div>
+                        <div id="ano4" class="ano">
+                               
+                        </div>
+                        <div id="nota4" class="nota">
+                           
+                        </div>
+                        <div id="img_game4" class="imagem">
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="linha2">
+                    <div class="box1">
+                        <div class="checkbox">
+                            <input class="check" type="checkbox" id="check" value="">
+                        </div>
+                        <div class="titulo">
+                            <p id="game5">Titulo do Jogo</p>   
+                        </div>
+                        <div id="diretorio5" class="diretorio">
+                           
+                        </div>
+                        <div id="ano5" class="ano">
+                          
+                        </div>
+                        <div id="nota5" class="nota">
+                           
+                        </div>
+                        <div id="img_game5" class="imagem">
+                            
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <div class="checkbox">
+                            <input class="check" type="checkbox">
+                        </div>
+                        <div class="titulo">
+                            <p id="game6">Titulo do Jogo</p>   
+                        </div>
+                        <div id="diretorio6" class="diretorio">
+                               
+                        </div>
+                        <div id="ano6" class="ano">
+                               
+                        </div>
+                        <div id="nota6" class="nota">
+                           
+                        </div>
+                        <div id="img_game6" class="imagem">
+                            
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <div class="checkbox">
+                            <input class="check" type="checkbox" id="check" value="">
+                        </div>
+                        <div class="titulo">
+                            <p id="game7">Titulo do Jogo</p>   
+                        </div>
+                        <div id="diretorio7" class="diretorio">
+                               
+                        </div>
+                        <div id="ano7" class="ano">
+                               
+                        </div>
+                        <div id="nota7" class="nota">
+                           
+                        </div>
+                        <div id="img_game7" class="imagem">
+                            
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <div class="checkbox">
+                            <input class="check" type="checkbox" id="check" value="">
+                        </div>
+                        <div class="titulo">
+                            <p id="game8">Titulo do Jogo</p>   
+                        </div>
+                        <div id="diretorio8" class="diretorio">
+                               
+                        </div>
+                        <div id="ano8" class="ano">
+                               
+                        </div>
+                        <div id="nota8" class="nota">
+                           
+                        </div>
+                        <div id="img_game8" class="imagem">
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="descricao"><h2>Times de 2020:</h2></div>
+
+                <div class="linha3">
+                    <div class="box1">
+                        <div class="checkbox">
+                            <input class="check" type="checkbox" id="check" value="">
+                        </div>
+                        <div class="titulo">
+                            <p id="game9">Titulo do Jogo</p>   
+                        </div>
+                        <div id="diretorio9" class="diretorio">
+                           
+                        </div>
+                        <div id="ano9" class="ano">
+                          
+                        </div>
+                        <div id="nota9" class="nota">
+                           
+                        </div>
+                        <div id="img_game9" class="imagem">
+                            
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <div class="checkbox">
+                            <input class="check" type="checkbox">
+                        </div>
+                        <div class="titulo">
+                            <p id="game10">Titulo do Jogo</p>   
+                        </div>
+                        <div id="diretorio10" class="diretorio">
+                               
+                        </div>
+                        <div id="ano10" class="ano">
+                               
+                        </div>
+                        <div id="nota10" class="nota">
+                           
+                        </div>
+                        <div id="img_game10" class="imagem">
+                            
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <div class="checkbox">
+                            <input class="check" type="checkbox" id="check" value="">
+                        </div>
+                        <div class="titulo">
+                            <p id="game11">Titulo do Jogo</p>   
+                        </div>
+                        <div id="diretorio11" class="diretorio">
+                               
+                        </div>
+                        <div id="ano11" class="ano">
+                               
+                        </div>
+                        <div id="nota11" class="nota">
+                           
+                        </div>
+                        <div id="img_game11" class="imagem">
+                            
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <div class="checkbox">
+                            <input class="check" type="checkbox" id="check" value="">
+                        </div>
+                        <div class="titulo">
+                            <p id="game12">Titulo do Jogo</p>   
+                        </div>
+                        <div id="diretorio12" class="diretorio">
+                               
+                        </div>
+                        <div id="ano12" class="ano">
+                               
+                        </div>
+                        <div id="nota12" class="nota">
+                           
+                        </div>
+                        <div id="img_game12" class="imagem">
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    
+</body>
+</html>

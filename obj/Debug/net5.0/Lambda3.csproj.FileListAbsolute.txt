@@ -1,0 +1,16 @@
+C:\Users\User\Lambda3\bin\Debug\net5.0\Lambda3.exe
+C:\Users\User\Lambda3\bin\Debug\net5.0\Lambda3.deps.json
+C:\Users\User\Lambda3\bin\Debug\net5.0\Lambda3.runtimeconfig.json
+C:\Users\User\Lambda3\bin\Debug\net5.0\Lambda3.runtimeconfig.dev.json
+C:\Users\User\Lambda3\bin\Debug\net5.0\Lambda3.dll
+C:\Users\User\Lambda3\bin\Debug\net5.0\ref\Lambda3.dll
+C:\Users\User\Lambda3\bin\Debug\net5.0\Lambda3.pdb
+C:\Users\User\Lambda3\obj\Debug\net5.0\Lambda3.csproj.AssemblyReference.cache
+C:\Users\User\Lambda3\obj\Debug\net5.0\Lambda3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Lambda3\obj\Debug\net5.0\Lambda3.AssemblyInfoInputs.cache
+C:\Users\User\Lambda3\obj\Debug\net5.0\Lambda3.AssemblyInfo.cs
+C:\Users\User\Lambda3\obj\Debug\net5.0\Lambda3.csproj.CoreCompileInputs.cache
+C:\Users\User\Lambda3\obj\Debug\net5.0\Lambda3.dll
+C:\Users\User\Lambda3\obj\Debug\net5.0\ref\Lambda3.dll
+C:\Users\User\Lambda3\obj\Debug\net5.0\Lambda3.pdb
+C:\Users\User\Lambda3\obj\Debug\net5.0\Lambda3.genruntimeconfig.cache
